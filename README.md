@@ -56,3 +56,13 @@ python3 main_point_ca.py
 
 請參閱 ``eval/Evaluation.md``
 
+## 關聯資料庫
+資料庫的設置和下載請參考各資料庫的 READMD 。
+1. [Cryo2Struct GitHub](https://github.com/bjtjili1028/Cryo2struct.git)
+    - 模型輸出檔案請使用：``<EMD_ID>_probabilities_atom.txt``
+2. [Cryo2Struct2 GitHub](https://github.com/bjtjili1028/Cryo2struct2.git)
+    - 模型輸出檔案請使用：``<EMD_ID>_probabilities_atom.txt``
+3. [CryoAtom GitHub](https://github.com/bjtjili1028/CryoAtom.git)
+    - 模型輸出檔案請使用：``CA_before_clustering.txt``
+4. [MICA GitHub](https://github.com/bjtjili1028/MICA.git)
+    - 模型輸出檔案請使用：``<EMD_ID>_CA_before_clustering.txt``

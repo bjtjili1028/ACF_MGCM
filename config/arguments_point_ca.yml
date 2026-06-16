@@ -1,0 +1,20 @@
+version: "Cryo2Struct"  # 協助記錄當前輸入的模型結果為何
+emd_id: "14147"
+
+prob_file: "/media/ray-suen/TRANSCEND1/huei/ACF_MGCM/input/ca_atom/14147_probabilities_atom.txt"
+reference_map: "/media/ray-suen/TRANSCEND1/huei/ACF_MGCM/input/ca_atom/emd_normalized_map.mrc"
+fasta: "/media/ray-suen/TRANSCEND1/huei/ACF_MGCM/input/ca_atom/7quc.fasta"
+label_mrc: "/media/ray-suen/TRANSCEND1/huei/ACF_MGCM/input/ca_atom/round_off_atom_emd_normalized_map.mrc"
+
+output_dir: "/media/ray-suen/TRANSCEND1/huei/ACF_MGCM/output/ca_result"
+output: "/media/ray-suen/TRANSCEND1/huei/ACF_MGCM/output/ca_result/14147_annotated.mrc"
+json_name: "ca_14147_output.json"
+
+coverage_factor : 1.9
+r_sphere : 4.2
+ca_mult : 0.8
+
+nms_radius : 1.9
+
+
+# python3 main_point_ca.py 
